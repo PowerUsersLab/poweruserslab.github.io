@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - Stash | Power Users Lab</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+            background: #0d1117;
+            color: #e6edf3;
+            line-height: 1.7;
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 700px;
+            margin: 0 auto;
+            padding: 60px 20px;
+        }
+
+        h1 {
+            font-size: 2rem;
+            font-weight: 600;
+            margin-bottom: 8px;
+            color: #ffffff;
+        }
+
+        .meta {
+            color: #8b949e;
+            margin-bottom: 40px;
+        }
+
+        h2 {
+            font-size: 1.25rem;
+            margin-top: 32px;
+            margin-bottom: 12px;
+            color: #ffffff;
+        }
+
+        p {
+            margin-bottom: 16px;
+            color: #c9d1d9;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 16px 0;
+        }
+
+        th,
+        td {
+            text-align: left;
+            padding: 12px;
+            border: 1px solid #30363d;
+        }
+
+        th {
+            background: #161b22;
+            color: #ffffff;
+        }
+
+        td {
+            color: #c9d1d9;
+        }
+
+        a {
+            color: #58a6ff;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .back-link {
+            display: inline-block;
+            margin-bottom: 24px;
+        }
+
+        footer {
+            text-align: center;
+            padding-top: 40px;
+            margin-top: 40px;
+            border-top: 1px solid #30363d;
+            color: #8b949e;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <a href="index.html" class="back-link">← Back to Power Users Lab</a>
+
+        <h1>Privacy Policy for Stash</h1>
+        <p class="meta">Effective Date: December 28, 2025 | Publisher: Power Users Lab</p>
+
+        <h2>Overview</h2>
+        <p>Stash is a local-first productivity tool. We believe your data is yours. This policy explains what we collect
+            (almost nothing), what we don't collect (everything else), and why.</p>
+
+        <h2>What Data Does Stash Collect?</h2>
+        <p><strong>None.</strong></p>
+        <p>Stash does not collect, transmit, or store any personal data on external servers. All snippets, settings, and
+            usage preferences are stored locally on your device using Chrome's storage.local API. This data never leaves
+            your browser.</p>
+        <p>We do not use analytics, telemetry, cookies, or tracking of any kind.</p>
+
+        <h2>Why Does Stash Need Certain Permissions?</h2>
+        <table>
+            <tr>
+                <th>Permission</th>
+                <th>Why We Need It</th>
+            </tr>
+            <tr>
+                <td>storage</td>
+                <td>To save your snippets and settings locally on your device.</td>
+            </tr>
+            <tr>
+                <td>activeTab</td>
+                <td>To detect the currently focused input field when inserting a snippet.</td>
+            </tr>
+            <tr>
+                <td>scripting</td>
+                <td>To inject saved text into active text fields on any website.</td>
+            </tr>
+            <tr>
+                <td>clipboardWrite</td>
+                <td>As a fallback method for inserting text. Not all websites handle direct text injection the same way,
+                    so we use clipboard as a backup to ensure Stash works reliably across the web.</td>
+            </tr>
+            <tr>
+                <td>Host permissions (all URLs)</td>
+                <td>To allow snippet insertion on any website you visit. We do not read, monitor, or transmit page
+                    content.</td>
+            </tr>
+        </table>
+        <p>We request only the permissions necessary for Stash to function. If a feature isn't essential to our core
+            purpose, we don't ask for the permission it would require.</p>
+
+        <h2>Data Sharing</h2>
+        <p>We do not share, sell, trade, or transfer your data to any third party. There is no data to share because we
+            don't collect any.</p>
+
+        <h2>Data Security</h2>
+        <p>Since all data is stored locally in your browser and never transmitted, there is no server-side data to
+            protect. Chrome's storage API provides the security boundary.</p>
+
+        <h2>Your Rights</h2>
+        <p>You have full control over your data:</p>
+        <p><strong>Access:</strong> View your snippets anytime in the Stash interface.</p>
+        <p><strong>Deletion:</strong> Delete individual snippets or clear all data via Settings.</p>
+        <p><strong>Portability:</strong> Export your snippets as a JSON file at any time.</p>
+        <p><strong>Revocation:</strong> Uninstall the extension to remove all stored data.</p>
+
+        <h2>Children's Privacy</h2>
+        <p>Stash does not collect information from anyone, including children. There is no data collection to speak of.
+        </p>
+
+        <h2>Changes to This Policy</h2>
+        <p>If we update this policy, we will post the revised version with a new effective date. Continued use of Stash
+            after changes constitutes acceptance of the updated policy.</p>
+
+        <h2>Contact</h2>
+        <p>Questions or concerns? Reach out: [YOUR EMAIL HERE]</p>
+
+        <footer>
+            <p>This policy applies to the Stash Chrome extension published by Power Users Lab.</p>
+        </footer>
+    </div>
+</body>
+
+</html>

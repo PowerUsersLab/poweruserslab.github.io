@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Power Users Lab - Tools for People Who Get Things Done</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+            background: #0d1117;
+            color: #e6edf3;
+            line-height: 1.6;
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 60px 20px;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 60px;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            font-weight: 600;
+            margin-bottom: 12px;
+            color: #ffffff;
+        }
+
+        .tagline {
+            font-size: 1.2rem;
+            color: #8b949e;
+        }
+
+        .philosophy {
+            background: #161b22;
+            border: 1px solid #30363d;
+            border-radius: 8px;
+            padding: 24px;
+            margin-bottom: 40px;
+        }
+
+        .philosophy p {
+            color: #8b949e;
+        }
+
+        h2 {
+            font-size: 1.5rem;
+            margin-bottom: 20px;
+            color: #ffffff;
+        }
+
+        .extensions {
+            margin-bottom: 40px;
+        }
+
+        .extension-card {
+            background: #161b22;
+            border: 1px solid #30363d;
+            border-radius: 8px;
+            padding: 24px;
+            margin-bottom: 16px;
+        }
+
+        .extension-card h3 {
+            font-size: 1.25rem;
+            color: #58a6ff;
+            margin-bottom: 8px;
+        }
+
+        .extension-card .description {
+            color: #8b949e;
+            margin-bottom: 12px;
+        }
+
+        .extension-card .status {
+            display: inline-block;
+            font-size: 0.875rem;
+            padding: 4px 12px;
+            border-radius: 20px;
+            background: #238636;
+            color: #ffffff;
+        }
+
+        .extension-card .status.coming-soon {
+            background: #30363d;
+            color: #8b949e;
+        }
+
+        footer {
+            text-align: center;
+            padding-top: 40px;
+            border-top: 1px solid #30363d;
+            color: #8b949e;
+        }
+
+        footer a {
+            color: #58a6ff;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        .footer-links {
+            margin-top: 12px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>Power Users Lab</h1>
+            <p class="tagline">Tools for people who get things done.</p>
+        </header>
+
+        <section class="philosophy">
+            <p>I build browser extensions that do one thing well. No bloat. No data harvesting. No endless permissions.
+                Just tools that make your day a little easier.</p>
+        </section>
+
+        <section class="extensions">
+            <h2>Extensions</h2>
+
+            <div class="extension-card">
+                <h3>Stash</h3>
+                <p class="description">Your best words, always ready. Save text snippets and recall them instantly with
+                    Alt+S. 100% local, 100% private.</p>
+                <span class="status">Available Now</span>
+            </div>
+
+            <div class="extension-card">
+                <h3>Tab Vault</h3>
+                <p class="description">Bankruptcy protection for your browser tabs. Save all open tabs to a session with
+                    one click. Resurrect them later.</p>
+                <span class="status coming-soon">Coming Soon</span>
+            </div>
+        </section>
+
+        <footer>
+            <p>Built by one developer who believes your data is yours.</p>
+            <p class="footer-links">
+                <a href="privacy.html">Privacy Policy</a>
+            </p>
+        </footer>
+    </div>
+</body>
+
+</html>
