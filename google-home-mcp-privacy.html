@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - Jer Google Home MCP | Power Users Lab</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+            background: #0d1117;
+            color: #e6edf3;
+            line-height: 1.7;
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 700px;
+            margin: 0 auto;
+            padding: 60px 20px;
+        }
+
+        h1 {
+            font-size: 2rem;
+            font-weight: 600;
+            margin-bottom: 8px;
+            color: #ffffff;
+        }
+
+        .meta {
+            color: #8b949e;
+            margin-bottom: 40px;
+        }
+
+        h2 {
+            font-size: 1.25rem;
+            margin-top: 32px;
+            margin-bottom: 12px;
+            color: #ffffff;
+        }
+
+        p {
+            margin-bottom: 16px;
+            color: #c9d1d9;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 16px 0;
+        }
+
+        th,
+        td {
+            text-align: left;
+            padding: 12px;
+            border: 1px solid #30363d;
+        }
+
+        th {
+            background: #161b22;
+            color: #ffffff;
+        }
+
+        td {
+            color: #c9d1d9;
+        }
+
+        a {
+            color: #58a6ff;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .back-link {
+            display: inline-block;
+            margin-bottom: 24px;
+        }
+
+        footer {
+            text-align: center;
+            padding-top: 40px;
+            margin-top: 40px;
+            border-top: 1px solid #30363d;
+            color: #8b949e;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <a href="index.html" class="back-link">&larr; Back to Power Users Lab</a>
+
+        <h1>Privacy Policy for Jer Google Home MCP</h1>
+        <p class="meta">Effective Date: October 2, 2026 | Publisher: Power Users Lab</p>
+
+        <h2>Overview</h2>
+        <p>Jer Google Home MCP is a personal tool, not a public product.
+            It lets its one user connect their own Google Home account to their own AI assistant (Claude, by Anthropic) so
+            the assistant can read and control the smart-home devices in their own home. It is not offered to the public,
+            and no one else's account is used.</p>
+
+        <h2>What Data Does It Access?</h2>
+        <p>With the user's permission (the Google Home API scope
+            <code>home.platform.v2</code>), the tool can access the user's Google Home data:</p>
+        <table>
+            <tr>
+                <th>Data</th>
+                <th>Why</th>
+            </tr>
+            <tr>
+                <td>Homes, rooms and devices</td>
+                <td>To know which lights, speakers, displays and cameras exist.</td>
+            </tr>
+            <tr>
+                <td>Device state (on/off, brightness, color)</td>
+                <td>To report and change what the devices are doing.</td>
+            </tr>
+            <tr>
+                <td>Device and camera history (events and descriptions)</td>
+                <td>To answer questions such as "was anyone in the office" and to support reminders and safety alerts.</td>
+            </tr>
+            <tr>
+                <td>Device commands (lights, speaker announcements)</td>
+                <td>To carry out the user's requests.</td>
+            </tr>
+        </table>
+
+        <h2>Where Data Goes</h2>
+        <p>Google Home data is requested only when the user asks their assistant to do something. The results are passed
+            to the user's own Claude conversation so the assistant can answer, and are handled under
+            <a href="https://www.anthropic.com/legal/privacy">Anthropic's privacy policy</a>. Power Users Lab runs no
+            server for this tool and does not receive, store, sell or share any of this data.</p>
+        <p>The sign-in tokens Google issues are stored only on the user's own computer.</p>
+
+        <h2>Google API Services User Data Policy</h2>
+        <p>Use and transfer of information received from Google APIs will adhere to the
+            <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data
+                Policy</a>, including the Limited Use requirements. Data is not used for advertising and is not used to
+            train general-purpose AI models.</p>
+
+        <h2>Your Control</h2>
+        <p>Access can be removed at any time at
+            <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>. Deleting the
+            local token file also ends access from that computer.</p>
+
+        <h2>Changes to This Policy</h2>
+        <p>If this policy changes, the revised version will be posted here with a new effective date.</p>
+
+        <h2>Contact</h2>
+        <p>Questions: <a href="mailto:jerolson@gmail.com">jerolson@gmail.com</a></p>
+
+        <footer>
+            <p>This policy applies to Jer Google Home MCP published by Power Users Lab.</p>
+        </footer>
+    </div>
+</body>
+
+</html>
